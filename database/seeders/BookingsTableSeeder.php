@@ -25,3 +25,4 @@ class BookingsTableSeeder extends Seeder
             });
     }
 }
+
