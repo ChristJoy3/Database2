@@ -13,7 +13,7 @@ class BookingsTableSeeder extends Seeder
     public function run()
     {
         Bookings::factory()
-            ->count(5000)
+            ->count(10000)
             ->create()
             ->each(function ($booking) {
                 // Mag create ug payment every booking

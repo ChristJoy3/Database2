@@ -12,6 +12,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        Users::factory()->count(5000)->create(); // Create 50 users
+        Users::factory()->count(1000)->create(); // Create 50 users
     }
 }

@@ -12,6 +12,6 @@ class RoomsTableSeeder extends Seeder
      */
     public function run()
     {
-        Rooms::factory()->count(5000)->create(); // Create 20 rooms
+        Rooms::factory()->count(1000)->create(); // Create 20 rooms
     }
 }
